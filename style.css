@@ -190,31 +190,72 @@ nav {
 }
 
 .grid-project {
-  max-width: 100rem;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
 }
-
-/* .project-image {
-  width: 100%;
-  object-fit: cover;
-}
-
-.project-image img {
-  width: 50px;
-} */
 
 .grid-el {
-  overflow: hidden;
+  background-color: #928da194;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #333;
+  transition: 1s;
 }
 
+.grid-el:hover,
+.grid-el:focus {
+  background-color: #a096c094;
+}
+
+.project-image {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.project-title {
+  font-family: "Merriweather", sans-serif;
+  color: #221c31;
+  font-weight: 700;
+}
+
+.grid-el a {
+  text-decoration: none;
+}
+
+.project-desc {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 100;
+  color: #171321;
+  letter-spacing: 1.2px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.src-code {
+  background-color: #221c31;
+  padding: 10px 20px;
+  color: #ededed;
+  font-weight: 700;
+  font-family: "Shippori Antique", sans-serif;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.src-code:hover,
+.src-code:focus {
+  background-color: #100c18db;
+}
 /* Contact Me */
 
 #contact-me {
   background-color: #fff;
   padding: 8rem 5vw;
+
+  border-bottom: 1px solid #bfbfbf59;
 }
 
 .contact-header {
@@ -257,6 +298,8 @@ nav {
   font-weight: 300;
 }
 
+/* Footer */
+
 .footer {
   background-color: #fff;
   display: flex;
@@ -266,7 +309,6 @@ nav {
 .credit {
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 100;
-  margin-bottom: 10px;
-  margin-right: 5px;
+  margin: 10px 5px;
   color: #5a5569a4;
 }
