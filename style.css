@@ -97,11 +97,15 @@ nav {
 
 #welcome-section {
   height: 100vh;
+  border-bottom: 3px solid #d4d0e0;
+}
+
+.welcome-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-bottom: 3px solid #d4d0e0;
+  padding-top: 35vh;
 }
 
 .welcome-section .name-color {
@@ -124,14 +128,10 @@ nav {
   font-family: "Lato", sans-serif;
   font-size: 1.4rem;
   font-style: italic;
-  margin-top: 0;
   color: #c4e8cd;
-  transition: 0.4s;
   letter-spacing: 0.1rem;
-}
-
-.welcome-section .desc:hover {
-  letter-spacing: 0.2rem;
+  margin-top: 0;
+  border-right: 0.2px solid #777;
 }
 
 /* About Me */
@@ -190,10 +190,10 @@ nav {
 }
 
 .grid-project {
-  max-width: 900px;
+  max-width: 1500px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
   grid-gap: 20px;
 }
 
