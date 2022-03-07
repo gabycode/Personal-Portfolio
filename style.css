@@ -116,6 +116,16 @@ nav {
   margin-bottom: 40px;
 }
 
+@media (max-width: 680px) {
+  .name-color {
+    text-align: center;
+  }
+
+  .welcome-container {
+    padding-top: 20vh;
+  }
+}
+
 .welcome-section .greeting {
   font-size: 1.5rem;
   font-weight: 400;
@@ -249,6 +259,7 @@ nav {
 .src-code:focus {
   background-color: #100c18db;
 }
+
 /* Contact Me */
 
 #contact-me {
