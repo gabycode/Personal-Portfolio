@@ -298,6 +298,17 @@ nav {
   font-weight: 300;
 }
 
+.profile-link {
+  transition: 0.3s;
+}
+
+.profile-link:hover,
+.profile-link:focus,
+.fa-linkedin:hover,
+.fa-github:hover {
+  color: #24392e;
+}
+
 /* Footer */
 
 .footer {
