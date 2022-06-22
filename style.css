@@ -202,12 +202,14 @@ nav {
   padding: 20px;
   text-align: center;
   border: 1px solid #333;
-  transition: 1s;
+  transition: 0.3s;
+  border-radius: 10px;
 }
 
 .grid-el:hover,
 .grid-el:focus {
   background-color: #a096c094;
+  border: 3px solid #3D264A;
 }
 
 .project-image {
@@ -247,7 +249,7 @@ nav {
 
 .src-code:hover,
 .src-code:focus {
-  background-color: #100c18db;
+  background-color: #100c18b2;
 }
 
 /* Contact Me */
