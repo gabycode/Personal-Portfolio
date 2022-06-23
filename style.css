@@ -32,17 +32,12 @@ nav {
   position: fixed;
   width: 100%;
   background-color: #171321;
-}
-
-.navbar {
-  display: flex;
-  width: 50%;
+  align-items: center;
 }
 
 #navbar .name-link {
   color: #ddfff7;
   text-decoration: none;
-  padding: 1.55rem;
   font-size: 1.1rem;
   font-weight: 800;
   letter-spacing: 0.1rem;
@@ -75,7 +70,7 @@ nav {
 }
 
 .navbar ul li {
-  padding: 1.55rem;
+  padding: 0 1.55rem;
   font-size: 1.1rem;
   font-weight: 200;
   letter-spacing: 0.1rem;
@@ -330,12 +325,17 @@ nav {
 
 @media (max-width: 420px) {
   nav {
+    display: block;
     height: 30vh;
-    justify-content: center;
+    position: static;
   }
 
-  .name-link {
+  #navbar .name-link {
     padding: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .navbar {
@@ -345,6 +345,7 @@ nav {
   .navbar ul {
     flex-direction: column;
     justify-content: center;
+    padding: 0;
   }
 
   .navbar ul li {
