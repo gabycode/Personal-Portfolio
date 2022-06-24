@@ -323,51 +323,26 @@ nav {
 
 /* Media Query */
 
-@media (max-width: 420px) {
-  /* nav {
-    display: block;
-    height: 30vh;
-    position: static;
-  }
-
-  #navbar .name-link {
-    padding: 0;
-    margin: 1em auto 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .navbar {
-    flex-direction: column;
-  }
-
-  .navbar ul {
-    flex-direction: column;
-    justify-content: center;
-    padding: 0;
-  }
-
-  .navbar ul li {
-    padding: .75em;
-  } */
-
-  /* Welcome */
-
-  #welcome-section {
-    height: 90vh;
+@media (max-width: 600px) {
+  nav {
+    display: none;
   }
 
   .welcome-container {
-    padding-top: 5vh;
+    padding-top: 20vh;
   }
 
-  .name-color{
+  .name-color, 
+  .about-desc{
     text-align: center;
+  }
+
+  .welcome-section .name-color {
+    font-size: 4rem;
   }
 
   .about-desc {
-    text-align: center;
+    font-size: 1.2rem;
   }
 
   .grid-project {
@@ -380,5 +355,15 @@ nav {
  .fab a,
  .email {
     font-size: 1.5rem;
+  }
+
+  .contact-me a {
+    padding: 0 1em;
+  }
+
+  .about-header,
+  .project-header,
+  .contact-header {
+    font-size: 2rem;
   }
 }
