@@ -353,9 +353,12 @@ nav {
 
  .fab,
  .fas,
- .fab a,
- .email {
+ .fab a {
     font-size: 1.5rem;
+  }
+
+  .email {
+    font-size: 1.3rem;
   }
 
   .contact-me a {
