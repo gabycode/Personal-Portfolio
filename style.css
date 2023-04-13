@@ -6,19 +6,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(
-    45deg,
-    hsl(258deg 25% 18%) 0%,
-    hsl(259deg 25% 17%) 21%,
-    hsl(259deg 26% 16%) 30%,
-    hsl(258deg 25% 16%) 39%,
-    hsl(256deg 25% 15%) 46%,
-    hsl(257deg 26% 14%) 54%,
-    hsl(258deg 26% 13%) 61%,
-    hsl(258deg 28% 12%) 69%,
-    hsl(256deg 26% 11%) 79%,
-    hsl(257deg 27% 10%) 100%
-  );
+  background: #f8f9fb;
 }
 
 /* NavBar */
@@ -31,12 +19,12 @@ nav {
   height: 10vh;
   position: fixed;
   width: 100%;
-  background-color: #171321;
+  background-color: #5085a5;
   align-items: center;
 }
 
 #navbar .name-link {
-  color: #ddfff7;
+  color: #eee;
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 800;
@@ -47,18 +35,13 @@ nav {
 #navbar .name-link:after {
   display: block;
   content: "";
-  border-bottom: solid 3px #c4e8cd;
+  border-bottom: solid 3px #f8f9fb;
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
 }
 #navbar .name-link:hover:after,
 #navbar .name-link:focus:after {
   transform: scaleX(1);
-}
-
-#navbar .name-link:focus,
-#navbar .name-link:hover {
-  transform: scale(1.1);
 }
 
 .navbar ul {
@@ -84,7 +67,7 @@ nav {
 }
 
 .navbar ul li a {
-  color: #ddfff7;
+  color: #f8f9fb;
   text-decoration: none;
 }
 
@@ -92,7 +75,6 @@ nav {
 
 #welcome-section {
   height: 100vh;
-  border-bottom: 3px solid #d4d0e0;
 }
 
 .welcome-container {
@@ -104,7 +86,7 @@ nav {
 }
 
 .welcome-section .name-color {
-  color: #ffe742;
+  color: #697865;
   font-family: "Shippori Antique", sans-serif;
   font-size: 5rem;
   margin-top: 0;
@@ -114,7 +96,7 @@ nav {
 .welcome-section .greeting {
   font-size: 1.5rem;
   font-weight: 400;
-  color: #e8ddc4;
+  color: #8fc1e2;
   font-family: "Merriweather", sans-serif;
   margin-bottom: 10px;
 }
@@ -123,7 +105,7 @@ nav {
   font-family: "Lato", sans-serif;
   font-size: 1.4rem;
   font-style: italic;
-  color: #c4e8cd;
+  color: #5085a5;
   letter-spacing: 0.1rem;
   margin-top: 0;
   border-right: 0.2px solid #777;
@@ -132,9 +114,8 @@ nav {
 /* About Me */
 
 #about {
-  background-color: #fff;
+  background-color: #31708f;
   padding: 8rem 5vw;
-  border-bottom: 3px solid #d4d0e0;
 }
 
 .about-container {
@@ -152,14 +133,15 @@ nav {
   font-family: "Merriweather", sans-serif;
   font-size: 2.6rem;
   text-align: center;
-  color: #383050;
-  border-bottom: 5px solid #383050;
+  color: #f8f9fb;
+  border-bottom: 2px solid #f8f9fb;
+  font-weight: 400;
 }
 
 .about-desc {
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 100;
-  color: #171321;
+  color: #f8f9fb;
   letter-spacing: 2px;
   line-height: 1.7;
   font-size: 20px;
@@ -170,8 +152,7 @@ nav {
 
 #projects {
   padding: 8rem 5vw;
-
-  border-bottom: 3px solid #d4d0e0;
+  background-color: #f8f9fb;
 }
 
 .project-header {
@@ -179,8 +160,8 @@ nav {
   text-align: center;
   margin: 0 auto 50px auto;
   font-size: 2.3rem;
-  color: #ededed;
-  border-bottom: 3px solid #bfbfbf;
+  color: #31708f;
+  border-bottom: 2px solid #31708f;
   max-width: 700px;
 }
 
@@ -193,18 +174,16 @@ nav {
 }
 
 .grid-el {
-  background-color: #928da194;
+  background-color: #5085a5;
   padding: 20px;
   text-align: center;
-  border: 1px solid #333;
   transition: 0.3s;
   border-radius: 10px;
 }
 
 .grid-el:hover,
 .grid-el:focus {
-  background-color: #a096c094;
-  border: 3px solid #3D264A;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.8);
 }
 
 .project-image {
@@ -215,8 +194,9 @@ nav {
 
 .project-title {
   font-family: "Merriweather", sans-serif;
-  color: #221c31;
+  color: #f8f9fb;
   font-weight: 700;
+  letter-spacing: 1.5px;
 }
 
 .grid-el a {
@@ -226,16 +206,16 @@ nav {
 .project-desc {
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 100;
-  color: #171321;
+  color: #f8f9fb;
   letter-spacing: 1.2px;
   line-height: 1.3;
   margin-bottom: 30px;
 }
 
 .src-code {
-  background-color: #221c31;
+  background-color: #4a6742;
   padding: 10px 20px;
-  color: #ededed;
+  color: #f8f9fb;
   font-weight: 700;
   font-family: "Shippori Antique", sans-serif;
   transition: 0.3s;
@@ -244,16 +224,14 @@ nav {
 
 .src-code:hover,
 .src-code:focus {
-  background-color: #100c18b2;
+  background-color: #56774d;
 }
 
 /* Contact Me */
 
 #contact-me {
-  background-color: #fff;
+  background-color: #31708f;
   padding: 8rem 5vw;
-
-  border-bottom: 1px solid #bfbfbf59;
 }
 
 .contact-header {
@@ -262,9 +240,9 @@ nav {
   font-family: "Merriweather", sans-serif;
   font-size: 2.6rem;
   text-align: center;
-  color: #383050;
+  color: #f8f9fb;
   margin-top: 0;
-  border-bottom: 5px solid #383050;
+  border-bottom: 2px solid #f8f9fb;
 }
 
 .contact-me {
@@ -279,7 +257,7 @@ nav {
 
 .fab,
 .fas {
-  color: #344e41;
+  color: #f8f9fb;
   font-size: 2rem;
   font-weight: 500;
   transition: 0.4s;
@@ -289,7 +267,7 @@ nav {
 .fab a,
 .email {
   text-decoration: none;
-  color: #344e41;
+  color: #f8f9fb;
   padding-left: 8px;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
@@ -303,13 +281,13 @@ nav {
 .profile-link:focus,
 .fa-linkedin:hover,
 .fa-github:hover {
-  color: #24392e;
+  color: #f6fff4;
 }
 
 /* Footer */
 
 .footer {
-  background-color: #fff;
+  background-color: #242a23;
   display: flex;
   justify-content: flex-end;
 }
@@ -318,7 +296,7 @@ nav {
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 100;
   margin: 10px 5px;
-  color: #5a5569a4;
+  color: #596357;
 }
 
 /* Media Query */
@@ -332,8 +310,8 @@ nav {
     padding-top: 20vh;
   }
 
-  .name-color, 
-  .about-desc{
+  .name-color,
+  .about-desc {
     text-align: center;
   }
 
@@ -351,9 +329,9 @@ nav {
     flex-direction: column;
   }
 
- .fab,
- .fas,
- .fab a {
+  .fab,
+  .fas,
+  .fab a {
     font-size: 1.5rem;
   }
 
