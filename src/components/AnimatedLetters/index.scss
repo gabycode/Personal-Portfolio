@@ -11,6 +11,7 @@
   animation-fill-mode: both;
 
   &:hover {
+    cursor: default;
     animation: rubberBand 1s;
     color: #f21b3f;
   }
