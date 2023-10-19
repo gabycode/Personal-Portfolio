@@ -32,15 +32,18 @@ const About = () => {
             />
           </h1>
           <p>
-            Hello! 👋 I'm a Frontend Developer who loves turning design dreams
-            into interactive web wonders. You might consider me quiet but I'm
-            silently confident and naturally curious.
+            Hello! 👋 I'm Gabriella, a highly motivated and passionate front-end
+            developer based in the vibrant city of Santo Domingo, Dominican
+            Republic. With a deep appreciation for the art and science of web
+            development, I bring 2+ years of hands-on experience in creating
+            user-friendly and visually appealing web applications.
           </p>
           <p>
-            My passion lies in creating user-friendly interfaces that not only
-            look stunning but also deliver seamless interactions. When I'm not
-            coding, you will find me enjoying videogames or venturing into the
-            great outdoors.
+            My journey in front-end development has equipped me with a strong
+            command of the latest technologies, with a particular focus on
+            JavaScript. I thrive on crafting dynamic and responsive websites
+            that not only meet clients' expectations but also provide an
+            exceptional user experience.
           </p>
           <p>
             Let's team up and build some awesome digital experiences together!
